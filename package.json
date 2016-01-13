@@ -1,0 +1,14 @@
+{
+  "name": "sk-blade-title",
+  "version": "1.0.0",
+  "description": "Blade that allows to have a 3 columns layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sk-blade"
+  ],
+  "author": "Florian Valence <florian.m.valence@gmail.com>",
+  "license": "ISC"
+}

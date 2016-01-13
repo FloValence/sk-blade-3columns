@@ -1,0 +1,59 @@
+{
+  "blade-3columns": {
+    "title" : {
+      "type" : "text",
+      "required" : true
+    },
+    "background": {
+      "type": "image",
+      "required": false
+    },
+    "color" : {
+      "type" : "color",
+      "required" : false
+    },
+    "intro" : {
+      "type" : "longtext",
+      "required" : false
+    },
+    "column1" : {
+      "type" : "object",
+      "object" : {
+        "title" : {
+          "type" : "text",
+          "required" : true
+        },
+        "content" : {
+          "type" : "textarea",
+          "required" : true
+        }
+      }
+    },
+    "column2" : {
+      "type" : "object",
+      "object" : {
+        "title" : {
+          "type" : "text",
+          "required" : true
+        },
+        "content" : {
+          "type" : "textarea",
+          "required" : true
+        }
+      }
+    },
+    "column3" : {
+      "type" : "object",
+      "object" : {
+        "title" : {
+          "type" : "text",
+          "required" : true
+        },
+        "content" : {
+          "type" : "textarea",
+          "required" : true
+        }
+      }
+    }
+  }
+}
